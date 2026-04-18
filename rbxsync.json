@@ -1,0 +1,34 @@
+{
+  "name": "HazardForts",
+  "tree": "./src",
+  "assets": "./assets",
+  "config": {
+    "extractBinaryAssets": true,
+    "binaryAssetTypes": [
+      "Animation",
+      "Mesh",
+      "Image",
+      "Sound"
+    ],
+    "excludeServices": [
+      "CoreGui",
+      "RobloxPluginGuiService",
+      "CorePackages"
+    ],
+    "excludeClasses": [],
+    "scriptSourceMode": "external",
+    "terrainMode": "voxelData",
+    "csgMode": "assetReference",
+    "chunkSize": 1000,
+    "generateToolingFiles": true
+  },
+  "sync": {
+    "mode": "bidirectional",
+    "conflictResolution": "prompt",
+    "autoSync": false,
+    "watchPaths": [
+      "./src"
+    ]
+  },
+  "treeMapping": {}
+}
