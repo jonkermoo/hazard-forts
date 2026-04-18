@@ -1,7 +1,8 @@
+# Project place file
+/hazard-forts.rbxlx
 
-# RbxSync
-.rbxsync/
-*.rbxl
-*.rbxlx
-.DS_Store
-Thumbs.db
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+sourcemap.json
